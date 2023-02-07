@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title><%= "Potin n°#{number_gossip}" %></title>
+  </head>
+  <body>
+    <h1><%= "Potin n°#{number_gossip}" %></h1>
+     <p> Voici le potin :
+       <%= gossip_find.author %><br/>
+       <%= gossip_find.content %>
+     </p>
+     <p>Clique <a href="/gossips/">sur ce lien</a> pour revenir à la page principale</p>
+  </body>
+</html>
